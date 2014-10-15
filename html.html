@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css' />
+        <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css' />
+        <link rel='stylesheet' href='style.css'/>
+    	<script src='script.js'></script>
+    	<title> Computer Science: About Me </title>
+    </head>
+	
+    <body id="html">
+        <h1> Example Website </h1>
+        <ul id="navbar">
+            <li><a href='home.html'>home</a></li>
+            <li><a href='about.html'>about me</a></li>
+            <li><a id="this" href='html.html'>html</a></li>
+            <li><a href='hardware.html'>hardware</a></li>
+            <li><a href='javascript.html'>javascript</a></li>
+            <li><a href='ai.html'>ai</a></li>
+            <li><a href='games.html'>games</a></li>
+            <li><span>by Chris</span></li>
+        </ul>
+        
+        <div class="content">
+            <h2> HTML and CSS </h2>
+		    <h3> The basics, plus tips, tricks, and what not to do </h3>
+		  
+		    <p> HTML, the abbreviation for "Hypertext Markup Language", is a widely used programming language for designing webpages. Though HTML content is fairly static - what appears on the screen will not change much - the language's ability to integrate other programs written in such languages as CSS, Javascript, and PHP allows for very dynamic website design. </p>
+		  
+		    <p> Of these, CSS, or "Cascading Style Sheets", is nearly inseparable from HTML - in fact, it is often considered bad form to use HTML without it. CSS allows website designers to stylize their pages with settings as simple as fonts to as complicated as animations (though the latter is normally left to Javascript). Most of these features can be accomplished with HTML on its own, but CSS also provides a separation of content from style, which makes the code easier to read and change when necessary. </p>
+		  
+		    <p> HTML uses a tagging system to define the structure of its sites; the content is written inside each tag. A tag, or more accurately, tag pair, consists of an opening and closing tag, with content in-between the two. For example, the basic paragraph tag appears as <code> &lt;p&gt; <em> paragraph text </em> &lt;/p&gt;</code>. In only a select few cases, a tag is permitted to act as both an opening tag and a closing tag. The most common example of this is the image tag, which is written <code> &lt;img src='<em>image redirect</em>' /&gt;</code>. </p>
+
+            <p> Some common tags include the following (<a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Element' target="_blank">view full documentation</a>): </p>
+
+            <table>
+                <tr>
+                    <td> Tags </td>
+                    <td> Attributes </td>
+                    <td> Use </td>
+                </tr>
+                <tr>
+                    <td> <code>&lt;body&gt; <em>visual code</em> &lt;/body&gt;</code> </td>
+                    <td> <em>none</em> </td>
+                    <td> Contains the body of code defining the visual page in the HTML program. </td>
+                </tr>
+                <tr>
+                    <td> <code>&lt;a href=''&gt; <em> linked text or element </em> &lt;/a&gt;</code> </td>
+                    <td> <code>href</code> </td>
+                    <td> Places a link to the destination designated by <code>href</code> on the contents, which can redirect by url or by directory. </td>
+                </tr>
+                <tr>
+                    <td> <code>&lt;table&gt; <em> table rows and table cells </em> &lt;/table&gt;</code> </td>
+                    <td> <em>none</em> </td>
+                    <td> Creates a table, which can then be extended by <code>tr</code> for table rows and <code>td</code> for table cells. </td>
+                </tr>
+                <tr>
+                    <td> <code>&lt;link href='' rel="" type="" /&gt;</code> </td>
+                    <td> <code>href</code> <code>rel</code> <code>type</code> </td>
+                    <td> Links a site to a document to be used for the site; <code>href</code> defines the document, <code>rel</code> defines how the document will be used (<code>"stylesheet"</code> for a CSS document), and <code>type</code> relates the format of the document (<code>"text/css"</code> for a CSS document). </td>
+                </tr>
+            </table>
+
+            <p> In this table, a new term, "attributes", appears. Attributes serve as additional information about elements that HTML can use. <code>href</code>, for example, is used in multiple tags to define a url direct. There are more HTML attributes to each of the tags listed above, but the ones listed are the most important and most common. Importantly, <code>&lt;table&gt;</code> is listed as having no attributes due to the functioning of CSS. </p>
+
+            <p id="ex_anim_text"> CSS, as before noted, is designed to manage all of the styling of a webpage. Before CSS became widely used, HTML attributes defined the styling; now however, styling is expected to occur in CSS - the fifth iteration of HTML (HTML5) even went so far as to remove many attributes from its visual tags for this reason. With CSS3, CSS is also able to handle some animations, which used to require Javascript. </p>
+        </div>
+    </body>
+</html>
