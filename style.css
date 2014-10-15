@@ -1,0 +1,157 @@
+body {
+	background-size: cover;
+    margin: 0;
+}
+
+#home {
+	background-image: url('http://en.clipdealer.com/preview/image/000/906/341/previews/7--906341-Binary%20code%20-%20Background%20animation.jpg');
+}
+
+#about {
+	background-image: url('http://www.momorialcards.com/images/light_textured_backround.jpg');
+}
+
+#html {
+	background-image: url('http://www.yourcoachsite.com/wp-content/uploads/2012/07/WordPress-Website.jpg');
+}
+
+h1 {
+	font-size: 30pt;
+	text-align: center;
+	font-family: Oleo Script, cursive;
+	color: #4b6cb7;
+    margin: 0;
+    padding: 16pt;
+    background-color: rgba(64, 59, 74, 0.4);
+}
+
+#navbar {
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+
+}
+
+#navbar li {
+	float: left;
+	width: 12.5%;
+	background: -webkit-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* Chrome 10+, Saf5.1+ */
+	background:    -moz-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* FF3.6+ */
+	background:     -ms-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* IE10 */
+	background:      -o-linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* Opera 11.10+ */
+	background:         linear-gradient(180deg, #4b6cb7 10%, #182848 90%); /* W3C */
+}
+
+#navbar a {
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20pt;
+	color: white;
+	display: block;
+}
+
+#navbar span {
+	text-align: right;
+	font-size: 20pt;
+	display: block;
+	margin-right: 10%;
+	color: #207985;
+}
+
+#navbar a:hover {
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+#navbar a#this {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content {
+	margin: 5% auto 2% auto;
+	width: 80%;
+	height: 50%;
+	background: rgba(185, 185, 185, 0.6);
+	border: rgba(185, 185, 185, 0.8) outset .5em;
+	padding: 0 3em;
+}
+
+h2 {
+	font-size: 24pt;
+	font-family: Share Tech Mono, monospace;
+	text-align: center;
+}
+
+h3 {
+	font-size: 18pt;
+	font-family: Lobster, cursive;
+	text-align: center;
+	border-bottom: 3pt solid #4b6cb7;
+	border-top: 3pt solid #4b6cb7;
+}
+
+.content p {
+	text-indent: 7.5%;
+	font-size: 18pt;
+	font-family: Droid Serif, serif;
+}
+
+.content a {
+	color: blue;
+	text-decoration: none;
+}
+
+.content a:visited {
+	color: #1a617a;
+}
+
+.content a:hover {
+	color: white;
+}
+
+.content ol {
+	font-size: 18pt;
+	font-family: Droid Serif, serif;
+}
+
+.content ul {
+	font-size: 18pt;
+	font-family: Droid Serif, serif;
+}
+
+.content ol * {
+	margin: 6pt 0;
+}
+
+.content code {
+	border: 2pt solid rgb(170, 170, 170);
+    font-size: 16pt;
+}
+
+.content table {
+    width: 100%;
+    font-family: Droid Serif, serif;
+    font-size: 18pt;
+    background-color: rgb(170, 170, 170);
+    background-color: rgba(170, 170, 170, 0.5);
+    text-align: center;
+    margin-bottom: 6pt;
+}
+
+.content td {
+    border-color: black;
+    border: 2pt solid rgba(0, 0, 0, 0.4);
+}
+
+#ex_anim_text:hover {
+    -webkit-animation: ex_anim 2s infinite;
+    -moz-animation: ex_anim 1.5s infinite;
+    -o-animation: ex_anim 1.5s infinite;
+    animation: ex_anim 1.5s infinite;
+}
+
+@-webkit-keyframes ex_anim { from {color: black;} 10% {color: rgb(24, 40, 72);} 50% {color: rgb(75, 108, 183);} 90% {background-color: rgba(75, 108, 183, 0); color: rgb(24, 40, 72);} to {color: black;} }
+@-moz-keyframes ex_anim { from {background-color: rgba(75, 108, 183, 0); color: rgb(24, 40, 72);} 50% {background-color: rgb(75, 108, 183); color: rgba(24, 40, 72, 0);} to {background-color: rgba(75, 108, 183, 0); color: rgb(24, 40, 72);} }
+@-o-keyframes ex_anim { from {background-color: rgba(75, 108, 183, 0); color: rgb(24, 40, 72);} 50% {background-color: rgb(75, 108, 183); color: rgba(24, 40, 72, 0);} to {background-color: rgba(75, 108, 183, 0); color: rgb(24, 40, 72);} }
+@keyframes ex_anim { from {background-color: rgba(75, 108, 183, 0); color: rgb(24, 40, 72);} 50% {background-color: rgb(75, 108, 183); color: rgba(24, 40, 72, 0);} to {background-color: rgba(75, 108, 183, 0); color: rgb(24, 40, 72);} }
